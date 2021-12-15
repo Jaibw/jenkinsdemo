@@ -16,7 +16,7 @@ pipeline {
         
         stage('Third Stage') {
             steps {
-                sh build.sh
+                sh 'build.sh'
             }
         }
         
