@@ -16,7 +16,7 @@ pipeline {
         
         stage('Third Stage') {
             steps {
-                echo 'Deployment'
+                sh build.sh
             }
         }
         
