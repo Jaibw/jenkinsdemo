@@ -17,7 +17,7 @@ pipeline {
         
         stage('Third Stage') {
             steps {
-                sh 'ls'
+                sh 'chmod a+x ./build.sh'
                 sh './build.sh'
             }
         }
