@@ -18,7 +18,7 @@ pipeline {
         stage('Third Stage') {
             steps {
                 sh 'ls'
-                sh 'build.sh'
+                sh './build.sh'
             }
         }
         
