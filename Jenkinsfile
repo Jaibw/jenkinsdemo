@@ -5,7 +5,7 @@ pipeline {
         stage('First Stage') {
             steps {
                 echo 'Prepare'
-                git 'https://github.com/Jaibw/jenkinsdemo.git' 
+                git branch: 'main', url: 'https://github.com/Jaibw/jenkinsdemo.git'
             }
         }
         
